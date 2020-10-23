@@ -1,4 +1,5 @@
 ﻿using System;
+using CoreEscuela.Entidades;
 
 namespace Etapa1
 {
@@ -6,7 +7,8 @@ namespace Etapa1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var escuela = new Escuela("Platzi Academy", 2010);
+            Console.WriteLine(escuela.Nombre);
         }
     }
 }

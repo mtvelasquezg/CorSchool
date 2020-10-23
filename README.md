@@ -1,1 +1,1 @@
-# CorSchool 
+# CoreSchool 
