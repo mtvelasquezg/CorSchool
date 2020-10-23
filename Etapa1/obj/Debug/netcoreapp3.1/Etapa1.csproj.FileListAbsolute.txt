@@ -1,0 +1,13 @@
+G:\mtvelasquezg\CoreSchool\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.exe
+G:\mtvelasquezg\CoreSchool\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.deps.json
+G:\mtvelasquezg\CoreSchool\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.runtimeconfig.json
+G:\mtvelasquezg\CoreSchool\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.runtimeconfig.dev.json
+G:\mtvelasquezg\CoreSchool\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.dll
+G:\mtvelasquezg\CoreSchool\Etapa1\bin\Debug\netcoreapp3.1\Etapa1.pdb
+G:\mtvelasquezg\CoreSchool\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.csprojAssemblyReference.cache
+G:\mtvelasquezg\CoreSchool\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.AssemblyInfoInputs.cache
+G:\mtvelasquezg\CoreSchool\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.AssemblyInfo.cs
+G:\mtvelasquezg\CoreSchool\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.csproj.CoreCompileInputs.cache
+G:\mtvelasquezg\CoreSchool\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.dll
+G:\mtvelasquezg\CoreSchool\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.pdb
+G:\mtvelasquezg\CoreSchool\Etapa1\obj\Debug\netcoreapp3.1\Etapa1.genruntimeconfig.cache
