@@ -8,7 +8,8 @@ namespace Etapa1
         static void Main(string[] args)
         {
             var escuela = new Escuela("Platzi Academy", 2010);
-            Console.WriteLine(escuela.Nombre);
+            escuela.TipoEscuela = TiposEscuela.PreEscolar;
+            Console.WriteLine(escuela);
         }
     }
 }
