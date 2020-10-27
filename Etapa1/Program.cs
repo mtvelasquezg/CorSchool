@@ -32,17 +32,21 @@ namespace Etapa1
 
             escuela.Cursos.AddRange(otraColeccion);
 
-            Predicate<Curso>miAlgoritmo = predicado;
-            escuela.Cursos.RemoveAll(miAlgoritmo);
+            WriteLine("==========================");
+            ImprimirCursosEscuela(escuela);
             
+            escuela.Cursos.RemoveAll(delegate (Curso cur){
+                                        return cur.Nombre == "301";
+                                    });
+
+            WriteLine("==========================");
             ImprimirCursosEscuela(escuela);
 
-            
-        }
+            escuela.Cursos.RemoveAll((Curso cur) => cur.Nombre == "402");
 
-        private static bool predicado(Curso obj)
-        {
-            return obj.Nombre == "301";
+            WriteLine("==========================");
+            ImprimirCursosEscuela(escuela);
+            
         }
 
         private static void ImprimirCursosEscuela(Escuela escuela)
@@ -51,7 +55,7 @@ namespace Etapa1
             {
                 foreach (var Curso in escuela.Cursos)
                 {
-                    Console.WriteLine(Curso.Nombre);
+                    WriteLine(Curso.Nombre);
                 }
             }
         }
