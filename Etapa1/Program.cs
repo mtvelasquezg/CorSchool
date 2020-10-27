@@ -31,10 +31,18 @@ namespace Etapa1
             };
 
             escuela.Cursos.AddRange(otraColeccion);
+
+            Predicate<Curso>miAlgoritmo = predicado;
+            escuela.Cursos.RemoveAll(miAlgoritmo);
             
             ImprimirCursosEscuela(escuela);
 
             
+        }
+
+        private static bool predicado(Curso obj)
+        {
+            return obj.Nombre == "301";
         }
 
         private static void ImprimirCursosEscuela(Escuela escuela)
